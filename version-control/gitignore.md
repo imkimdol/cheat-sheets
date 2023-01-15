@@ -1,5 +1,5 @@
 <font style="color:red">*Brief explanation of .gitignore goes here*</font>
-.gitignore templates can be found [here](https://github.com/github/gitignore).
+`.gitignore` templates can be found [here](https://github.com/github/gitignore).
 
 All examples are based on this file tree/structure.
 ```
@@ -19,7 +19,7 @@ repo
 └── README.md
 ```
 
-## Excluding a File with  .gitignore
+## Excluding a File with  `.gitignore`
 To exclude a file, add the file's path in a line. This example excludes the file `tree.txt` located at the root.
 ```
 /tree.txt
@@ -34,7 +34,7 @@ kiwi.mp3
 ```
 
 ## Excluding Files with Names that Share Sections
-Adding an asterisk(`*`) to a .gitignore entry replaces it with any possible sequence of characters.
+Adding an asterisk(`*`) to a `.gitignore` entry replaces it with any possible sequence of characters.
 
 For example, **to exclude files with names that start with a certain series of characters**, add the characters followed by an asterisk(`*`).
 
