@@ -47,7 +47,7 @@ With this, it is possible to exclude any files with a certain name, regardless o
 pigeon.*
 /animals/pigeon.*
 ```
-Notice, that this example will not exclude `/animals/pigeon-photos.zip`. The following example, however, includes all three.
+Notice that this example will not exclude `/animals/pigeon-photos.zip`. The following example, however, includes all three.
 ```
 pigeon*
 ```
