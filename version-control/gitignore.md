@@ -1,4 +1,5 @@
 <font style="color:red">*Brief explanation of .gitignore goes here*</font>
+.gitignore templates can be found [here](https://github.com/github/gitignore).
 
 All examples are based on this file tree/structure.
 ```
