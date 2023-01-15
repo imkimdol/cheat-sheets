@@ -63,7 +63,7 @@ Excluding a directory is done by adding the directory name appended with a slash
 fruit/
 animals/birds/
 ```
-Alternatively, adding an asterisk(`*`) also works. 
+Alternatively, including an asterisk(`*`) also works. 
 ```
 animals/*
 ```
