@@ -38,6 +38,10 @@ Excluding a directory is done by adding the directory name appended with a slash
 fruit/
 animals/birds/
 ```
+Alternatively, adding an asterisk(`*`) also works. 
+```
+animals/*
+```
 
 ### Comments
 All text prepended by the number sign (`#`) is considered as a comment.
