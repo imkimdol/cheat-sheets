@@ -18,13 +18,13 @@ repo
 └── README.md
 ```
 
-### Excluding a File with  .gitignore
+## Excluding a File with  .gitignore
 To exclude a file, add the file's path in a line. This example excludes the file `tree.txt` located at the root.
 ```
 /tree.txt
 ```
 
-### Excluding Files that Share Names
+## Excluding Files that Share Names
 To exclude all files with a certain name, add the file's name without any slashes(`/`). This excludes any file with the same name from the repository.
 
 In this example, `/fruit/kiwi.mp3` as well as `/animals/birds/kiwi.mp3` are excluded.
@@ -32,7 +32,7 @@ In this example, `/fruit/kiwi.mp3` as well as `/animals/birds/kiwi.mp3` are excl
 kiwi.mp3
 ```
 
-### Excluding Files with Names that Share Sections
+## Excluding Files with Names that Share Sections
 Adding an asterisk(`*`) to a .gitignore entry replaces it with any possible sequence of characters.
 
 For example, **to exclude files with names that start with a certain series of characters**, add the characters followed by an asterisk(`*`).
@@ -57,7 +57,7 @@ pigeon*
 *.txt
 ```
 
-### Excluding a Directory
+## Excluding a Directory
 Excluding a directory is done by adding the directory name appended with a slash(`/`).
 ```
 fruit/
@@ -68,7 +68,7 @@ Alternatively, including an asterisk(`*`) also works.
 animals/*
 ```
 
-### Comments
+## Comments
 All text prepended by the number sign(`#`) is considered as a comment.
 ```
 # This is a comment
