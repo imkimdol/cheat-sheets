@@ -44,7 +44,7 @@ animals/*
 ```
 
 ### Comments
-All text prepended by the number sign (`#`) is considered as a comment.
+All text prepended by the number sign(`#`) is considered as a comment.
 ```
 # This is a comment
 ```
